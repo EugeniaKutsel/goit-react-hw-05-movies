@@ -10,8 +10,6 @@ const MovieDetails = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const backLink = location.state?.from ?? '/'
-
-  console.log(location);
   
 
   useEffect(() => {
@@ -22,7 +20,7 @@ const MovieDetails = () => {
 
   return (
     <>
-       <Link to={backLink}>Go back</Link>
+      <Link to={backLink} className={css.goBackLink}> Go back</Link>
       {movie &&
         <div className={css.movie}>
           <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt={movie.title} width='300' height='450' />
