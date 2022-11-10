@@ -1,0 +1,17 @@
+.reviews {
+  max-width: 1000px;
+  margin-left: 50px;
+}
+
+.reviewsList {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.reviewsItem {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

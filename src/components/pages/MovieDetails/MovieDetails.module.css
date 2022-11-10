@@ -1,0 +1,44 @@
+.movie {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+}
+
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 800px;
+}
+
+.movieGenres {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.buttonList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.movieBtn {
+  border-radius: 10px;
+  padding: 10px;
+  width: 130px;
+  background-color: rgba(38, 92, 228, 0.784);
+  border: 1px solid transparent;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.movieBtn:hover {
+  color: rgba(38, 92, 228, 0.784);
+  background-color: white;
+  border: 1px solid rgba(38, 92, 228, 0.784);
+}

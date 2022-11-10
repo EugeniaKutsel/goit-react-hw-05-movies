@@ -1,0 +1,26 @@
+.cast {
+  text-align: center;
+}
+
+.castTitle {
+  margin-bottom: 30px;
+}
+
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.castItem {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 15px;
+  width: 200px;
+}
