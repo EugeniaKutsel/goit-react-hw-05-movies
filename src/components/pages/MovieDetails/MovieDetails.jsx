@@ -32,8 +32,8 @@ const MovieDetails = () => {
             <h3>Genres</h3>
             <ul className={css.movieGenres}>{movie.genres.map(({ id, name }) => <li key={id}>{name}</li>)}</ul>
             <div className={css.buttonList}>
-              <button type="button" onClick={() => { navigate('cast') }} className={css.movieBtn}>Cast</button>
-              <button type="button" onClick={() => { navigate('reviews') }} className={css.movieBtn}>Reviews</button>
+              <button type="button" onClick={() => { navigate(`cast`, { state: { from: location.state?.from } }) }} className={css.movieBtn}>Cast</button>
+              <button type="button" onClick={() => { navigate(`reviews`, { state: { from: location.state?.from } }) }} className={css.movieBtn}>Reviews</button>
             </div>
           </div>
         </div>

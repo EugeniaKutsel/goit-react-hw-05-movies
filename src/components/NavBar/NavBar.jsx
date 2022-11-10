@@ -19,7 +19,7 @@ text-decoration: none;
 const Navigation = () => {
   return (
     <nav className={css.navList}>
-      <NavItem to='/'>Home</NavItem>
+      <NavItem to='/' end>Home</NavItem>
       <NavItem to='/movies'>Movies</NavItem>
     </nav>
   );
